@@ -34,13 +34,14 @@ color: #0c0c0c;
     cursor: pointer;
     width: 335px;
     height: 364px; 
-   
-  }
-  .catalog-item:hover {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+   padding: 24px 28px;
   }
   
+  
+  .foto {
+    display: block; 
+  margin: 0 auto;
+  }
   
   .product-name {
     font-weight: 500;
@@ -48,6 +49,7 @@ font-size: 16px;
 line-height: 1.25;
 letter-spacing: -0.02em;
 color: #0c0c0c;
+margin-top: 28px;
   }
   .product {
     display: flex;
@@ -55,6 +57,7 @@ color: #0c0c0c;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
+  
   }
   .price {
     font-size: 14px;
@@ -62,7 +65,39 @@ color: #0c0c0c;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.5);
   }
- 
+  .catalog-btn {
+    border-radius: 16px;
+width: 160px;
+height: 48px;
+background: #3350e9;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: #fbfbfb;
+cursor: pointer;
+
+  }
+  .button-mob {
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px; 
+  }
+  .catalog-btn {
+    display: none; 
+  }
+  @media (max-width: 767px) {
+    .catalog-btn {
+        display: block; 
+        margin: 20px auto;  
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .catalog-item:nth-child(n+5) {
+        display: none;
+      }
+  }
 
   @media screen and (min-width: 768px) {
 
