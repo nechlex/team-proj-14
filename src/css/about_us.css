@@ -2,7 +2,6 @@
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .container {
@@ -55,8 +54,8 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info-button:hover,
-.info-button:focus {
+.info-button-link:hover,
+.info-button-link:focus {
   background-color: #1f3cd4;
 }
 
@@ -66,6 +65,8 @@
 }
 
 .info-two-img {
+  background: rgba(12, 12, 12, 0.2);
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -99,7 +100,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .info {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -117,7 +118,7 @@
   }
 
   .info-two {
-    max-width: 530px;
+    min-width: 530px;
   }
   .info-two-img {
     max-width: 530px;
