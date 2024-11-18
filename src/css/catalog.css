@@ -78,10 +78,11 @@ color: #fbfbfb;
 cursor: pointer;
 
   }
-  .button-mob {
+  .button-catalog {
     display: flex;
     justify-content: center; 
     margin-top: 40px; 
+    padding-left: 60px;
   }
   .catalog-btn {
     display: none; 
@@ -97,6 +98,7 @@ cursor: pointer;
     .catalog-item:nth-child(n+5) {
         display: none;
       }
+
   }
 
   @media screen and (min-width: 768px) {
@@ -105,6 +107,26 @@ cursor: pointer;
         padding: 40px 0 40px 0;
         
       }
+      .foto-fenix {
+        content: url('/img/catalog/fenix1xtab.webp');
+        width: 268px;
+        height: 292px;
+    }
+    .foto-marq {
+      content: url('/img/catalog/marq1xtab.webp');
+      width: 268px;
+      height: 292px;
+  }
+  .foto-descent {
+    content: url('/img/catalog/descent1xtab.webp');
+    width: 268px;
+    height: 292px;
+}
+.foto-delta {
+  content: url('/img/catalog/delta1xtab.webp');
+  width: 268px;
+  height: 292px;
+}
     .catalog-title {
        
 font-size: 48px;
@@ -142,6 +164,36 @@ line-height: 1;
         padding: 50px 0 50px 0;
         
       }
+      .foto-fenix {
+        content: url('/img/catalog/fenix1xdesk.webp');
+        width: 292px;
+        height: 292px;
+    }
+    .foto-marq {
+      content: url('/img/catalog/marq1xdesk.webp');
+      width: 268px;
+      height: 292px;
+  }
+  .foto-descent {
+    content: url('/img/catalog/descent1xdesk.webp');
+    width: 268px;
+    height: 292px;
+}
+.foto-delta {
+  content: url('/img/catalog/delta1xdesk.webp');
+  width: 268px;
+  height: 292px;
+}
+.foto-solar {
+  content: url('/img/catalog/solar1xdesk.webp');
+  width: 268px;
+  height: 292px;
+}
+.foto-tube {
+  content: url('/img/catalog/tube1xdesk.webp');
+  width: 268px;
+  height: 292px;
+}
     .catalog-list {
         
         width: 1150px;
