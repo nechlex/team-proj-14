@@ -3,7 +3,7 @@
     top: 0;
     right: 0;
     height: 100%;
-    background-image: url(../img/menu/menu-img-mob.webp);
+    background-image: url(/img/menu/menu-img-mob.webp);
    background-position: center center; 
    background-size: cover;
     background-color: #0c0c0c;
@@ -18,7 +18,7 @@
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .menu {
-        background-image: url(../img/menu/menu-img-mob-2x.webp);
+        background-image: url(/img/menu/menu-img-mob-2x.webp);
     }
 }
 
@@ -129,14 +129,14 @@ margin-top: 2px;
 @media screen and (min-width: 768px) {
     .menu {
 max-width: 330px;
-background-image: url(../img/menu/menu-img-tab.webp)
+background-image: url(/img/menu/menu-img-tab.webp)
     }
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .menu {
-        background-image: url(../img/menu/menu-img-tab-2x.webp);
+        background-image: url(/img/menu/menu-img-tab-2x.webp);
     }
 }
 
