@@ -1,0 +1,139 @@
+.reviews {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.reviews-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 32px 36px;
+  background-color: #f3f3f3;
+}
+
+.reviews-img {
+  border-radius: 100%;
+  margin-bottom: 24px;
+}
+
+.reviews-features {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+
+.reviews-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+  max-width: 263px;
+}
+
+.reviews-box {
+  display: none;
+}
+
+.reviews-block {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .reviews {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 40px;
+  }
+
+  .reviews-list {
+    gap: 16px;
+    margin-right: 0;
+  }
+
+  .reviews-item {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+
+  .reviews-box {
+    display: none;
+  }
+
+  .reviews-box {
+    display: flex;
+  }
+
+  .reviews-features {
+    font-size: 18px;
+    line-height: 110%;
+  }
+
+  .reviews-text {
+    font-size: 16px;
+    line-height: 125%;
+    max-width: 272px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .reviews {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .reviews-list {
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+
+  .reviews-item {
+    flex-basis: calc((100% - 20px) / 3);
+  }
+
+  .reviews-box {
+    display: flex;
+  }
+
+  .reviews-block {
+    display: flex;
+  }
+
+  .reviews-text {
+    max-width: 298px;
+  }
+}
