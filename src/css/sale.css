@@ -56,25 +56,17 @@
   height: 561px;
   padding: 48px 28px;
   background-color: #3350e9;
-  position: relative;
 }
 
 .sale-text {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
-.position {
-  position: absolute;
-  top: 8px;
-  left: 12px;
-}
 
 .sale-text-name {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 117%;
@@ -84,7 +76,6 @@
 }
 
 .sale-text-tag {
-  font-family: 'Gilroy', sans-serif;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.02em;
@@ -107,7 +98,6 @@
 }
 
 .sale-text-price {
-  font-family: 'Gilroy', sans-serif;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: -0.02em;
@@ -116,7 +106,6 @@
 }
 
 .sale-text-description {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -130,13 +119,12 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   gap: 8px;
 }
 
 .sale-item-text {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 133%;
@@ -191,17 +179,13 @@
 
   .sale-block {
     border-radius: 50px;
-    height: 518px;
+    max-height: 518px;
     padding: 60px;
   }
 
   .sale-text {
     font-size: 20px;
     line-height: 100%;
-  }
-
-  .position {
-    display: none;
   }
 
   .sale-text-name {
