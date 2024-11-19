@@ -4,8 +4,7 @@
   display: flex;
   align-items: center;
 }
-.container {
-}
+
 .info-one {
   padding: 40px 20px;
   border-radius: 30px;
@@ -106,7 +105,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .container {
+  .info-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
