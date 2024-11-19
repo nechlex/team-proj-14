@@ -66,6 +66,7 @@
 
 .info-two-img {
   background: rgba(12, 12, 12, 0.2);
+  width: 100%;
   height: auto;
 }
 
@@ -96,7 +97,9 @@
     margin-bottom: 20px;
   }
   .info-two {
-    min-width: 704px;
+    width: 100%;
+    height: auto;
+    max-width: 704px;
   }
 }
 
@@ -121,6 +124,8 @@
     min-width: 530px;
   }
   .info-two-img {
-    max-width: 530px;
+    width: 100%;
+    height: auto;
+    min-width: 530px;
   }
 }
