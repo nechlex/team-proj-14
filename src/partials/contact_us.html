@@ -11,15 +11,15 @@
                 title="Please enter an email address">
                 <input type="tel" name="user-tel" class="form-input" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" 
                 title="+380-XX-XXX-XX-XX">
-                <textarea name="user-comment" class="contact-us-textarea" placeholder="Comment"></textarea>
+                <textarea name="user-comment" class="contact-us-textarea" maxlength="1000" placeholder="Comment"></textarea>
                 <button type="submit" class="contact-us-btn">Send</button>
             </form>
         </div>
         <div class="contact-img-container">
         <picture>
-            <source srcset="/img/contact/contact-img.webp, /img/contact-img-2x.webp" media="(min-width: 1280px)">
-            <source srcset="/img/contact/contact-img-tab.webp, /img/contact-img-tab-2x.webpx" media="(min-width: 768px)">
-            <source srcset="/img/contact/contact-img-mob.webp, /img/contact-img-mob-2x.webp" media="(max-width: 767px)">
+            <source srcset="/img/contact/contact-img.webp 1x, /img/contact/contact-img-2x.webp 2x" media="(min-width: 1280px)">
+            <source srcset="/img/contact/contact-img-tab.webp 1x, /img/contact/contact-img-tab-2x.webp 2x" media="(min-width: 768px)">
+            <source srcset="/img/contact/contact-img-mob.webp, /img/contact/contact-img-mob-2x.webp 2x" media="(max-width: 767px)">
             <img src="/img/contact/contact-img.webp" alt="watch" width="704" class="contact-image">
         </picture>
         </div>
