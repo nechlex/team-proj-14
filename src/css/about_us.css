@@ -61,7 +61,7 @@
 
 .info-two {
   display: block;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .info-two-img {
@@ -97,8 +97,6 @@
     margin-bottom: 20px;
   }
   .info-two {
-    width: 100%;
-    height: auto;
     max-width: 704px;
   }
 }
@@ -122,10 +120,6 @@
 
   .info-two {
     min-width: 530px;
-  }
-  .info-two-img {
-    width: 100%;
-    height: auto;
-    min-width: 530px;
+    max-width: 530px;
   }
 }
