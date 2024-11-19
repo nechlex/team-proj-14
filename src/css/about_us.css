@@ -118,6 +118,9 @@
     margin-bottom: 0;
   }
 
+  .info-wrap {
+    margin-bottom: 40px;
+  }
   .info-two {
     min-width: 530px;
     max-width: 530px;
