@@ -1,7 +1,7 @@
 .contact-us-container {
     padding: 0px 20px;
     height: 1100px;
-}
+ }
 .title-contact-us {
 font-weight: 600;
 font-size: 32px;
@@ -102,6 +102,9 @@ border-color:#3350e9;
 .contact-us-btn:hover, .contact-us-btn:focus {
 background-color: #1f3cd4;
 }
+.contact-img-container {
+    min-width: 335px;
+}
 /*tablet-contact*/
 @media screen and (min-width: 768px) {
 .contact-us-container{
@@ -139,6 +142,9 @@ background-color: #1f3cd4;
     height: 52px;
     padding: 17px 63px;
 }
+.contact-img-container {
+min-width: 704px;
+}
 }
 @media screen and (min-width: 1280px) {
 .contact-us-container {
@@ -160,5 +166,8 @@ width: 580px;
 gap: 32px;
 padding: 50px 60px;
 margin-bottom: 0;
+}
+.contact-img-container {
+    min-width: 530px;
 }
 }
