@@ -19,18 +19,18 @@
     <header class="header-section">
   <div class="nav-container container">
     <nav class="header-nav">
-      <a class="logo" href="#top">watchcharm</a>
+      <a class="logo" href="./index.html">watchcharm</a>
     </nav>
 
     <ul class="header-links-list">
       <li>
         <a class="nav-link nav-link-studio" href="#top">Home</a>
       </li>
-      <li><a class="nav-link" href="#about">About Us</a></li>
+      <li><a class="nav-link" href="#about_us">About Us</a></li>
       <li><a class="nav-link" href="#catalog">Catalog</a></li>
       <li><a class="nav-link" href="#sale">Sale</a></li>
       <li><a class="nav-link" href="#reviews">Reviews</a></li>
-      <li><a class="nav-link" href="#contact">Contact Us</a></li>
+      <li><a class="nav-link" href="#contact_us">Contact Us</a></li>
     </ul>
 
     <ul class="social-list-header">
@@ -218,7 +218,7 @@
   </div>
 </section>
 
-      <section class="info">
+      <section id="about_us" class="info">
   <div class="container info-container">
     <div class="info-one">
       <h2 class="info-title">About Us</h2>
@@ -262,7 +262,7 @@
   </div>
 </section>
 
-      <section class="catalog">
+      <section id="catalog" class="catalog">
     <div class="container">
         <h2 class="catalog-title">Catalog</h2>
         <ul class="catalog-list">
@@ -401,7 +401,7 @@
     </div>
   </section>
 
-      <section class="sale">
+      <section id="sale" class="sale">
   <div class="container">
     <h2 class="sale-titel">Sale</h2>
     <div class="sale-container">
@@ -494,7 +494,7 @@
   </div>
 </section>
 
-      <section class="reviews">
+      <section id="reviews" class="reviews">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
     <ul class="reviews-list">
@@ -558,35 +558,72 @@
   </div>
 </section>
 
-      <section class="contact-us">
-    <div class="container contact-us-container">
-        <h2 class="title-contact-us">Contact Us</h2>
-        <div class="contact-us-desktop">
-        <div class="form-contact-us">
-            <p class="subtitle-contact-us">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.
-            </p>
-            <form class="form-field">
-                <input type="text" name="user-name" class="form-input" placeholder="Name">
-                <input type="email" name="user-email" class="form-input" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                title="Please enter an email address">
-                <input type="tel" name="user-tel" class="form-input" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" 
-                title="+380-XX-XXX-XX-XX">
-                <textarea name="user-comment" class="contact-us-textarea" maxlength="1000" placeholder="Comment"></textarea>
-                <button type="submit" class="contact-us-btn">Send</button>
-            </form>
-        </div>
-        <div class="contact-img-container">
+      <section id="contact_us" class="contact-us">
+  <div class="container contact-us-container">
+    <h2 class="title-contact-us">Contact Us</h2>
+    <div class="contact-us-desktop">
+      <div class="form-contact-us">
+        <p class="subtitle-contact-us">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="form-field">
+          <input
+            type="text"
+            name="user-name"
+            class="form-input"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="user-email"
+            class="form-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            title="Please enter an email address"
+          />
+          <input
+            type="tel"
+            name="user-tel"
+            class="form-input"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            title="+380-XX-XXX-XX-XX"
+          />
+          <textarea
+            name="user-comment"
+            class="contact-us-textarea"
+            maxlength="1000"
+            placeholder="Comment"
+          ></textarea>
+          <button type="submit" class="contact-us-btn">Send</button>
+        </form>
+      </div>
+      <div class="contact-img-container">
         <picture>
-            <source srcset="/team-proj-14/assets/contact-img-TnqZDHqY.webp 1x, /team-proj-14/assets/contact-img-2x-Ulxg-D1J.webp 2x" media="(min-width: 1280px)">
-            <source srcset="/team-proj-14/assets/contact-img-tab-r6BZGmEm.webp 1x, /team-proj-14/assets/contact-img-tab-2x-pcUgGZ2j.webp 2x" media="(min-width: 768px)">
-            <source srcset="/team-proj-14/assets/contact-img-mob-C4c2WGD2.webp, /team-proj-14/assets/contact-img-mob-2x-BInOnBNc.webp 2x" media="(max-width: 767px)">
-            <img src="/team-proj-14/assets/contact-img-TnqZDHqY.webp" alt="watch" class="contact-image">
+          <source
+            srcset="/team-proj-14/assets/contact-img-TnqZDHqY.webp 1x, /team-proj-14/assets/contact-img-2x-Ulxg-D1J.webp 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/team-proj-14/assets/contact-img-tab-r6BZGmEm.webp 1x, /team-proj-14/assets/contact-img-tab-2x-pcUgGZ2j.webp 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/team-proj-14/assets/contact-img-mob-C4c2WGD2.webp, /team-proj-14/assets/contact-img-mob-2x-BInOnBNc.webp 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/team-proj-14/assets/contact-img-TnqZDHqY.webp"
+            alt="watch"
+            class="contact-image"
+          />
         </picture>
-        </div>
-        </div>
+      </div>
     </div>
-
+  </div>
 </section>
+
     </main>
 
     <footer class="footer">
@@ -647,12 +684,12 @@
     </div>
     <div class="footer-nav">
       <ul class="footer-list-nav">
-        <li class="footer-item-nav"><a href="#Home">Home</a></li>
-        <li class="footer-item-nav"><a href="#About Us">About Us</a></li>
-        <li class="footer-item-nav"><a href="#Catalog">Catalog</a></li>
-        <li class="footer-item-nav"><a href="#Sale">Sale</a></li>
-        <li class="footer-item-nav"><a href="#Reviews">Reviews</a></li>
-        <li class="footer-item-nav"><a href="#Contact Us">Contact Us</a></li>
+        <li class="footer-item-nav"><a href="#top">Home</a></li>
+        <li class="footer-item-nav"><a href="#about_us">About Us</a></li>
+        <li class="footer-item-nav"><a href="#catalog">Catalog</a></li>
+        <li class="footer-item-nav"><a href="#sale">Sale</a></li>
+        <li class="footer-item-nav"><a href="#reviews">Reviews</a></li>
+        <li class="footer-item-nav"><a href="#contact_us">Contact Us</a></li>
       </ul>
       <address class="address">
         <a
