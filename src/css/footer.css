@@ -1,11 +1,13 @@
 .footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  /* padding-top: 30px;
+  padding-bottom: 20px; */
+  padding: 30px 20px 20px 20px;
 }
-.container.footer {
+.footer-container {
   border-radius: 30px;
   background-color: #0c0c0c;
   color: #fbfbfb;
+  padding: 40px 28px 28px 28px;
 }
 .footer-logo {
 }
@@ -63,30 +65,39 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 24px;
   margin-bottom: 24px;
+  justify-content: space-between;
+  font-weight: 500;
 }
 .footer-list-nav {
-  font-size: 12px;
+  /* font-size: 12px;
   line-height: 1.33;
-  text-align: center;
+  text-align: center; */
   display: flex;
   flex-wrap: wrap;
   column-gap: 16px;
   row-gap: 8px;
+  max-width: 147px;
 }
 .footer-item-nav {
+  font-size: 12px;
+  line-height: 133%;
+  text-align: center;
+  color: #fbfbfb;
 }
 
 .footer-adress {
   display: flex;
   margin-left: auto;
-  max-width: 83px;
 }
 .address {
+  color: #fbfbfb;
   font-size: 12px;
   line-height: 1.33;
+  max-width: 83px;
 }
 
 .address-link {
+ 
 }
 .footer-privacy {
   font-weight: 500;
@@ -107,11 +118,13 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding-top: 40px;
-    padding-bottom: 32px;
+    /* padding-top: 40px;
+    padding-bottom: 32px; */
+  padding: 40px 32px 32px 32px;
   }
 
-  .container {
+  .footer-container {
+    padding: 40px 40px 28px 40px;
   }
 
   .footer-top {
@@ -140,7 +153,10 @@
     font-size: 14px;
     line-height: 1.29;
   }
-
+.footer-nav {
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
   .footer-text {
     font-size: 28px;
     line-height: 1.14;
@@ -158,15 +174,32 @@
   .footer-list-link {
     gap: 19px;
   }
-  .footer-adress {
-    max-width: 162px;
-  }
+
   .footer-privacy {
     font-size: 14px;
     line-height: 1.29;
     display: flex;
     justify-content: space-between;
   }
+
+.footer-list-nav {
+  /* font-size: 12px;
+  line-height: 1.33;
+  text-align: center; */
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 19px;
+  row-gap: 8px;
+  max-width: 400px;
+}
+.address {
+  max-width: 162px;
+}
+
+.footer-privacy-text {
+  padding-bottom: 0;
+}
+
 }
 
 @media screen and (min-width: 1280px) {
