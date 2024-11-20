@@ -23,7 +23,7 @@
       rgba(12, 12, 12, 0.2),
       rgba(12, 12, 12, 0.2)
     ),
-    url(/img/advertisement/adv-mob2x.webp);
+    url(../img/advertisement/advert-img-mob-2x.webp);
 }
 
 .advertisement {
@@ -31,7 +31,7 @@
       rgba(12, 12, 12, 0.2),
       rgba(12, 12, 12, 0.2)
     ),
-    url(/img/advertisement/adv-mob2x.webp);
+    url(../img/advertisement/advert-img-mob-2x.webp);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 30px;
@@ -49,7 +49,7 @@
         rgba(12, 12, 12, 0.2),
         rgba(12, 12, 12, 0.2)
       ),
-      url(/img/advertisement/adv-mob2x.webp);
+      url(../img/advertisement/advert-img-mob-2x.webp);
   }
 }
 
