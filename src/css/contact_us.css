@@ -12,7 +12,7 @@
   padding: 48px 28px;
   background-color: #f3f3f3;
   margin-bottom: 20px;
-  }
+}
 
 .subtitle-contact-us {
   font-weight: 500;
@@ -128,28 +128,27 @@
     font-size: 16px;
     line-height: 1.25;
   }
-.contact-us-textarea {
-  min-height: 90px;
-  min-width: 460px;
-}
+  .contact-us-textarea {
+    min-height: 90px;
+    min-width: 460px;
+  }
   .contact-us-btn {
     min-width: 160px;
     height: 52px;
     border-radius: 16px;
-   }
+  }
   .contact-image {
     border-radius: 50px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  
   .contact-us-desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-   }
+  }
 
   .form-contact-us {
     width: 580px;
@@ -157,10 +156,7 @@
     padding: 50px 60px;
     margin-bottom: 0;
   }
-.subtitle-contact-us {
-  min-width: 460px;
-}
-  /*.contact-image {
-    margin: 0;
-  }*/
+  .subtitle-contact-us {
+    min-width: 460px;
+  }
 }
