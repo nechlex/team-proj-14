@@ -12,8 +12,7 @@
 .container-advertisement {
     max-width: 335px;
     min-height: 363px;
-    width: 100%;
-    height: auto;
+   
     display: flex;
     flex-direction: column;
     
@@ -70,9 +69,8 @@ justify-content: space-between;
   }
   .advertisement-btn {
     display: block;
-    
     width: 160px;
-  
+    
     border-radius: 16px;
    padding: 15px 44px;
     font-weight: 500;
@@ -108,7 +106,7 @@ justify-content: space-between;
         rgba(12, 12, 12, 0.2),
         rgba(12, 12, 12, 0.2)
       ),
-        url(/img/advertisement/advert-img-tab-2x.webp);
+        url(../img/advertisement/advert-img-tab-2x.webp);
     }
     .advertisement-description {
         max-width: 576px;
@@ -128,7 +126,7 @@ justify-content: space-between;
             rgba(12, 12, 12, 0.2),
             rgba(12, 12, 12, 0.2)
           ),
-          url(/img/advertisement/advert-img-tab-2x.webp);
+          url(../img/advertisement/advert-img-tab-2x.webp);
       }
     }
   
