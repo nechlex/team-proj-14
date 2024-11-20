@@ -93,6 +93,7 @@ cursor: pointer;
     align-items: center;
     margin-top: 40px; 
     margin-left: 55px;
+    margin-bottom: 60px;
   }
   
 .catalog-btn {
@@ -123,7 +124,7 @@ cursor: pointer;
   @media screen and (min-width: 768px) {
 
     .catalog {
-        padding: 40px 0 40px 0;
+        padding: 40px 0 80px 0;
         
       }
       .foto-fenix {
@@ -180,7 +181,7 @@ line-height: 1;
   @media screen and (min-width: 1280px) {
 
     .catalog {
-        padding: 50px 0 50px 0;
+        padding: 50px 0 100px 0;
         
       }
       .foto-fenix {
