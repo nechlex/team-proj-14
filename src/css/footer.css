@@ -6,7 +6,6 @@
   border-radius: 30px;
   background-color: #0c0c0c;
   color: #fbfbfb;
-  padding: 40px 28px 28px 28px;
 }
 .footer-logo {
 }
@@ -37,7 +36,7 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
   width: 152px;
-  height: 46px;
+  height: 44px;
   padding-top: 14px;
   padding-left: 20px;
 }
@@ -46,14 +45,12 @@
   font-size: 12px;
   line-height: 1.33;
   text-transform: uppercase;
-  /* text-align: center; */
   display: block;
   margin: 0 auto;
 }
 .footer-text {
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   display: block;
@@ -63,14 +60,12 @@
 }
 .footer-nav {
   display: flex;
-  justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 24px;
   margin-bottom: 24px;
 }
 .footer-list-nav {
   font-size: 12px;
-  line-height: 16px;
   line-height: 1.33;
   text-align: center;
   display: flex;
@@ -88,7 +83,6 @@
 }
 .address {
   font-size: 12px;
-  line-height: 16px;
   line-height: 1.33;
 }
 
@@ -118,15 +112,18 @@
   }
 
   .container {
-    padding: 40px 40px 28px 40px;
   }
 
   .footer-top {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   .footer-text-logo {
     font-size: 20px;
+  }
+
+  .footer-list-logo {
+    padding-bottom: 0px;
   }
 
   .footer-item-logo {
@@ -137,6 +134,7 @@
     width: 160px;
     height: 48px;
     padding-left: 15px;
+    margin-left: auto;
   }
   .contact-link {
     font-size: 14px;
@@ -145,7 +143,7 @@
 
   .footer-text {
     font-size: 28px;
-    line-height: 1.14286;
+    line-height: 1.14;
     width: 524px;
     margin: 0 auto;
     padding-top: 86px;
@@ -176,11 +174,10 @@
     padding-top: 50px;
   }
   .footer-top {
-    /* display: flex;
-    margin: 0 auto;
-    /* justify-content: space-between; */
   }
   .footer-text-top {
+  }
+  .footer-text {
   }
   .top {
   }
@@ -189,6 +186,7 @@
 
   .footer-text {
     padding-top: 0;
+    padding-bottom: 126px;
     display: flex;
   }
   .footer-list-link {
