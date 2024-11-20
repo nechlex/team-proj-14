@@ -1,0 +1,223 @@
+.catalog {
+    padding: 30px 0 30px 0;
+    
+  }
+  
+  .container {
+    
+    margin: auto;
+    
+  }
+  .catalog-title {
+    text-align: left; 
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+  }
+  .catalog-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    
+  }
+  .catalog-item {
+    background: #f3f3f3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    width: 335px;
+    height: 364px;
+   padding: 24px 28px;
+   margin: 0 auto;
+  }
+  
+  
+  .foto {
+    display: block; 
+  margin: 0 auto;
+  max-width: 100%; 
+  height: auto; 
+
+  }
+  
+  .product-name {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+margin-top: 28px;
+  }
+  .product {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  
+  }
+  .price {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+  }
+  .catalog-btn {
+    border-radius: 16px;
+width: 160px;
+height: 48px;
+background: #3350e9;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: #fbfbfb;
+cursor: pointer;
+
+  }
+  .button-catalog {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 40px; 
+    margin-left: 55px;
+  }
+  
+.catalog-btn {
+    border: 1px solid blue; 
+}
+  .catalog-btn {
+    display: none; 
+  }
+  @media (max-width: 767px) {
+    .catalog-btn {
+        display: block; 
+        margin: 40px auto; 
+        text-align: center; 
+       
+    }
+    .catalog-item {
+      max-width: 335px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .catalog-item:nth-child(n+5) {
+        display: none;
+      }
+
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .catalog {
+        padding: 40px 0 40px 0;
+        
+      }
+      .foto-fenix {
+        content: url('/img/catalog/fenix1xtab.webp');
+        width: 268px;
+        height: 292px;
+    }
+    .foto-marq {
+      content: url('/img/catalog/marq1xtab.webp');
+      width: 268px;
+      height: 292px;
+  }
+  .foto-descent {
+    content: url('/img/catalog/descent1xtab.webp');
+    width: 268px;
+    height: 292px;
+}
+.foto-delta {
+  content: url('/img/catalog/delta1xtab.webp');
+  width: 268px;
+  height: 292px;
+}
+    .catalog-title {
+       
+font-size: 48px;
+line-height: 0.92;
+margin-bottom: 40px;
+
+    }
+    .catalog-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 16px;
+        width: 704px;
+        height: 1306px;
+    }
+    .product-name {
+       
+font-size: 20px;
+line-height: 1;
+
+    }
+    
+    .catalog-item {
+      width: calc((100% - 16px) / 2);
+      
+      width: 344px;
+      height: 414px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+
+    .catalog {
+        padding: 50px 0 50px 0;
+        
+      }
+      .foto-fenix {
+        content: url('/img/catalog/fenix1xdesk.webp');
+        width: 292px;
+        height: 292px;
+    }
+    .foto-marq {
+      content: url('/img/catalog/marq1xdesk.webp');
+      width: 268px;
+      height: 292px;
+  }
+  .foto-descent {
+    content: url('/img/catalog/descent1xdesk.webp');
+    width: 268px;
+    height: 292px;
+}
+.foto-delta {
+  content: url('/img/catalog/delta1xdesk.webp');
+  width: 268px;
+  height: 292px;
+}
+.foto-solar {
+  content: url('/img/catalog/solar1xdesk.webp');
+  width: 268px;
+  height: 292px;
+}
+.foto-tube {
+  content: url('/img/catalog/tube1xdesk.webp');
+  width: 268px;
+  height: 292px;
+}
+    .catalog-list {
+        
+        width: 1150px;
+        height: 860px;
+    }
+    
+    
+    
+    .catalog-item {
+      width: calc((100% - 46px) / 3);
+      width: 368px;
+      height: 414px;
+    }
+}
