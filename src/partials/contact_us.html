@@ -1,0 +1,74 @@
+<section id="contact_us" class="contact-us">
+  <div class="container contact-us-container">
+    <h2 class="title-contact-us">Contact Us</h2>
+    <div class="contact-us-desktop">
+      <div class="form-contact-us">
+        <p class="subtitle-contact-us">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="form-field">
+          <input
+            type="text"
+            name="user-name"
+            class="form-input"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="user-email"
+            class="form-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            title="Please enter an email address"
+          />
+          <input
+            type="tel"
+            name="user-tel"
+            class="form-input"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            title="+380-XX-XXX-XX-XX"
+          />
+          <textarea
+            name="user-comment"
+            class="contact-us-textarea"
+            maxlength="1000"
+            placeholder="Comment"
+          ></textarea>
+          <button type="submit" class="contact-us-btn">Send</button>
+        </form>
+      </div>
+      <div class="contact-img-container">
+        <picture>
+          <source
+            srcset="
+              /img/contact/contact-img.webp    1x,
+              /img/contact/contact-img-2x.webp 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /img/contact/contact-img-tab.webp    1x,
+              /img/contact/contact-img-tab-2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /img/contact/contact-img-mob.webp,
+              /img/contact/contact-img-mob-2x.webp 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/img/contact/contact-img.webp"
+            alt="watch"
+            class="contact-image"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
