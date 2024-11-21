@@ -1,12 +1,9 @@
 .hero {
-    padding-top: 0;
-    padding-bottom: 30px;
     
 }
 
 .hero-container {
-    padding: 60px 20px 0px 20px;
-    margin-bottom: 28px;
+    padding: 60px 20px 30px 20px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -93,7 +90,7 @@
 @media screen and (min-width: 768px) {
     .hero-container {
         flex-direction: column;
-        padding: 80px 32px 0px 32px;
+        padding: 80px 32px 40px 32px;
     }
 
     .hero-tablet {
@@ -128,6 +125,8 @@
 
     .hero-text {
         font-size: 14px;
+        max-width: 480px;
+
     }
 
     .hero-icons-scroll {
@@ -142,7 +141,7 @@
 
 @media screen and (min-width: 1280px) {
     .hero-container {
-        padding: 80px 65px 0px 65px;
+        padding: 80px 65px 50px 65px;
         width: 1280px;
         height: 889px;
         margin-bottom: 50px;

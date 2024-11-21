@@ -1,6 +1,4 @@
 .info {
-  padding-top: 30px;
-  padding-bottom: 30px;
   display: flex;
   align-items: center;
 }
@@ -72,8 +70,6 @@
 
 @media only screen and (min-width: 768px) {
   .info {
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
 
   .info-one {
@@ -103,8 +99,6 @@
 
 @media only screen and (min-width: 1280px) {
   .info {
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
   .info-container {
     display: flex;
