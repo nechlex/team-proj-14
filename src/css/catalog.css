@@ -153,10 +153,12 @@ margin-bottom: 40px;
         height: 1306px;
     }
     .product-name {
-       
-font-size: 20px;
-line-height: 1;
-
+        text-overflow: ellipsis;
+          font-size: 20px;
+          line-height: 1;
+          white-space: nowrap;
+          overflow: hidden;
+          max-width: 280px;
     }
     
     .catalog-item {
