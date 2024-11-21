@@ -40,6 +40,7 @@
   padding: 0;
   box-sizing: border-box;
   background-size: cover;
+  margin-bottom: 40px;
 }
 @media screen and (min-resolution: 2dppx),
   (min-resolution: 192dpi),
@@ -96,6 +97,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .advertisement {
+    margin-bottom: 40px;
+  }
   .container-advertisement {
     max-width: 704px;
     height: 425px;
@@ -136,6 +140,7 @@
     width: 100%;
     padding: 0;
     height: 298px;
+    margin-bottom: 50px;
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.2),
         rgba(12, 12, 12, 0.2)
