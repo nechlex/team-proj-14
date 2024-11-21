@@ -1,11 +1,16 @@
 .hero {
     padding-top: 0;
     padding-bottom: 30px;
+    
 }
 
 .hero-container {
     padding: 60px 20px 0px 20px;
     margin-bottom: 28px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .hero-tablet {
@@ -99,8 +104,7 @@
         gap: 11px;
         width: 704px;
         height: 260px;
-        display: flex;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
         margin-bottom: 40px;
     }
 
@@ -145,10 +149,10 @@
     }
 
     .hero-tablet {
-        display: flex;
+        /*display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        flex-direction: row;
+        flex-direction: row;*/
         gap: 407px;
     }
         .hero-title {
