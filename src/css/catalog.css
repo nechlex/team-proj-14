@@ -28,7 +28,7 @@
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     cursor: pointer;
-    width: 100%;
+    
     width: 335px;
     height: 364px;
    padding: 24px 28px;
@@ -94,6 +94,7 @@ margin-top: 28px;
    .catalog-btn:hover,  .catalog-btn:focus {
     background-color: #1f3cd4;
    }  
+
   @media (max-width: 767px) {
     .catalog-item {
       max-width: 335px;
@@ -112,7 +113,7 @@ margin-top: 28px;
     display: none;
   }
     .catalog {
-        padding: 40px 0 40px 0;
+        padding: 40px 0 80px 0;
         
       }
       .foto-fenix {
@@ -171,7 +172,7 @@ margin-bottom: 40px;
   @media screen and (min-width: 1280px) {
 
     .catalog {
-        padding: 50px 0 50px 0;
+        padding: 50px 0 100px 0;
         
       }
       .foto-fenix {
