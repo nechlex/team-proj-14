@@ -24,7 +24,7 @@
 
     <ul class="header-links-list">
       <li>
-        <a class="nav-link nav-link-studio" href="#top">Home</a>
+        <a class="nav-link nav-link-studio" href="./index.html">Home</a>
       </li>
       <li><a class="nav-link" href="#about_us">About Us</a></li>
       <li><a class="nav-link" href="#catalog">Catalog</a></li>
@@ -412,7 +412,7 @@
         Choose <span class="highlight">your story</span>, making every moment
         unique. Time is your style, and we reveal it.
       </p>
-      <a href="contact-us" class="advertisement-btn">Contact Us</a>
+      <a href="#contact_us" class="advertisement-btn">Contact Us</a>
     </div>
   </section>
 </div>
@@ -589,6 +589,7 @@
             name="user-name"
             class="form-input"
             placeholder="Name"
+            required
           />
           <input
             type="email"
@@ -597,6 +598,7 @@
             placeholder="Email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             title="Please enter an email address"
+            required
           />
           <input
             type="tel"
@@ -605,12 +607,14 @@
             placeholder="+380"
             pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
             title="+380-XX-XXX-XX-XX"
+            required
           />
           <textarea
             name="user-comment"
             class="contact-us-textarea"
             maxlength="1000"
             placeholder="Comment"
+            requiredgi
           ></textarea>
           <button type="submit" class="contact-us-btn">Send</button>
         </form>
