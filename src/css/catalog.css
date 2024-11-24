@@ -89,6 +89,11 @@ margin-top: 28px;
   .button-catalog {
     display: flex;
     justify-content: center; 
+    align-items: center;
+    margin-top: 40px; 
+    margin-left: 55px;
+    margin-bottom: 60px;
+    margin-right: 55px;
   }
    .catalog-btn:hover,  .catalog-btn:focus {
     background-color: #1f3cd4;
