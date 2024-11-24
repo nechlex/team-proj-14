@@ -120,10 +120,11 @@
   .subtitle-contact-us {
     font-size: 16px;
     line-height: 1.25;
+    margin-bottom: 32px;
   }
 
   .form-input {
-    padding: 16px 18px;
+    padding: 16px;
     min-width: 460px;
     font-size: 16px;
     line-height: 1.25;
@@ -131,6 +132,9 @@
   .contact-us-textarea {
     min-height: 90px;
     min-width: 460px;
+    padding-top: 16px;
+    padding-left: 16px;
+    margin-bottom: 32px;
   }
   .contact-us-btn {
     min-width: 160px;
