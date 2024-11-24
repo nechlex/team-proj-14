@@ -22,7 +22,6 @@
   stroke: #0c0c0c;
 }
 
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -63,12 +62,11 @@
 
   .logo {
     font-size: 20px;
-
   }
   .menu-link {
-      width: 40px;
-      height: 40px;
-    }
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -109,6 +107,8 @@
     text-align: center;
     color: #0c0c0c;
     position: relative;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .nav-container {
@@ -121,8 +121,9 @@
     align-items: center;
   }
 
-  .nav-link-studio::after {
+  .nav-link:after {
     content: '';
+    width: 100%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -131,31 +132,45 @@
     width: 8px;
     background-color: #3350e9;
     border-radius: 50%;
+    opacity: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover:after,
+  .nav-link:focus:after,
+  .nav-link.nav-link-studio:after {
+    opacity: 1;
+  }
+
+  .nav-link:hover:after,
+  .nav-link:focus:after,
+  .nav-link.nav-link-studio:after {
+    background-color: #3350e9;
   }
 
   .social-item-header {
     width: 36px;
     height: 36px;
-    }
+  }
 
   .social-link-header {
     border: 1px solid rgba(12, 12, 12, 0.1);
-      border-radius: 10px;
-      padding: 8px;
-      width: 36px;
-      height: 36px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .social-link-header:hover, .social-link-header:focus {
-     border-color: rgba(51, 80, 233, 0.1);
-    }
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-link-header:hover,
+  .social-link-header:focus {
+    border-color: rgba(51, 80, 233, 0.1);
+  }
 
   .social-item-header:hover .social-icon-header,
   .social-item-header:focus .social-icon-header {
     fill: #3350e9;
   }
-
-  }
+}
