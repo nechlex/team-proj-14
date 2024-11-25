@@ -159,7 +159,7 @@ margin-bottom: 40px;
         flex-direction: row;
         gap: 16px;
         width: 704px;
-        height: 1306px;
+        height: 1270px;
     }
     .product-name {
         text-overflow: ellipsis;
