@@ -69,9 +69,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .info {
-  }
-
   .info-one {
     padding: 80px 60px;
     border-radius: 50px;
@@ -98,8 +95,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .info {
-  }
   .info-container {
     display: flex;
     justify-content: space-between;
