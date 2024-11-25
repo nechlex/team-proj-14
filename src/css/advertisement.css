@@ -17,7 +17,7 @@
   align-self: flex-start;
   justify-content: space-between;
   padding: 30px 20px;
-  margin: 0 auto;
+  margin-bottom: 30px;
   background-color: rgba(12, 12, 12, 0.2);
   background-image: linear-gradient(
       rgba(12, 12, 12, 0.2),
@@ -101,6 +101,7 @@
     height: 425px;
     width: 100%;
     padding: 80px 64px;
+    margin-bottom: 40px;
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.2),
         rgba(12, 12, 12, 0.2)
@@ -136,6 +137,7 @@
     width: 100%;
     padding: 0;
     height: 298px;
+    margin-bottom: 50px;
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.2),
         rgba(12, 12, 12, 0.2)
