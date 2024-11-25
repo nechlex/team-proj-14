@@ -1,8 +1,10 @@
 .catalog {
+
   }
   
   .container {
-    margin: auto;  
+    max-width: 100%;
+    margin: 0 auto;  
   }
   .catalog-title {
     text-align: left; 
