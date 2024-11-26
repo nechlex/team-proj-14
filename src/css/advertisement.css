@@ -7,10 +7,6 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.container {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 
 .container-advertisement {
   max-width: 335px;
@@ -20,15 +16,26 @@
   flex-direction: column;
   align-self: flex-start;
   justify-content: space-between;
-  padding: 60px 20px;
-  margin: 0 auto;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  background-color: rgba(12, 12, 12, 0.2);
+  background-image: linear-gradient(
+      rgba(12, 12, 12, 0.2),
+      rgba(12, 12, 12, 0.2)
+    ),
+    url(/img/advertisement/adv-mob2x.webp);
 }
 
 .advertisement {
-  background-image: url(/img/advertisement/advertisement-img-mob.webp);
+  background-image: linear-gradient(
+      rgba(12, 12, 12, 0.2),
+      rgba(12, 12, 12, 0.2)
+    ),
+    url(/img/advertisement/adv-mob2x.webp);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 30px;
+  background: #0c0c0c;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -38,7 +45,11 @@
   (min-resolution: 192dpi),
   (-webkit-min-device-pixel-ratio: 2) {
   .advertisement {
-    background-image: url(/img/advertisement/advertisement-img-mob-2x.webp);
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.2),
+        rgba(12, 12, 12, 0.2)
+      ),
+      url(/img/advertisement/adv-mob2x.webp);
   }
 }
 
@@ -48,17 +59,20 @@
 
 .advertisement-description {
   max-height: 167px;
+  padding-top: 60px;
+
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: 0.02em;
   text-align: left;
   color: #fbfbfb;
+  margin-bottom: 28px;
 }
-
 .advertisement-btn {
   display: block;
   width: 160px;
+
   border-radius: 16px;
   padding: 15px 44px;
   font-weight: 500;
@@ -82,23 +96,25 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
   .container-advertisement {
     max-width: 704px;
     height: 425px;
     width: 100%;
     padding: 80px 64px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.2),
+        rgba(12, 12, 12, 0.2)
+      ),
+      url(../img/advertisement/advert-img-tab-2x.webp);
   }
-
   .advertisement-description {
     max-width: 576px;
     min-height: 185px;
     font-size: 48px;
     line-height: 0.92;
+    letter-spacing: -0.02em;
+    text-align: left;
     margin-bottom: 32px;
     padding: 0;
   }
@@ -107,29 +123,35 @@
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ratio: 2) {
     .advertisement {
-      background-image: url(/img/advertisement/advertisement-img-tab-2x.webp);
+      background-image: linear-gradient(
+          rgba(12, 12, 12, 0.2),
+          rgba(12, 12, 12, 0.2)
+        ),
+        url(../img/advertisement/advert-img-tab-2x.webp);
     }
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
   .advertisement {
     min-width: 1150px;
     width: 100%;
     padding: 0;
     height: 298px;
-    background-image: url(/img/advertisement/advertisement-img.webp);
+    margin-bottom: 50px;
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.2),
+        rgba(12, 12, 12, 0.2)
+      ),
+      url(/img/advertisement/advert-img-desk-2x.webp);
   }
   .advertisement-description {
     margin: 0;
     padding: 0;
     max-width: 690px;
+    text-align: left;
   }
   .container-advertisement {
+    display: flex;
     align-items: flex-start;
     flex-direction: row;
     width: 100%;
@@ -148,7 +170,14 @@
     (min-resolution: 192dpi),
     (-webkit-min-device-pixel-ratio: 2) {
     .advertisement {
-      background-image: url(/img/advertisement/advertisement-img-2x.webp);
+      background-image: linear-gradient(
+          rgba(12, 12, 12, 0.2),
+          rgba(12, 12, 12, 0.2)
+        ),
+        url(/img/advertisement/advert-img-desk-2x.webp);
     }
   }
 }
+
+
+
