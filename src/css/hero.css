@@ -99,6 +99,7 @@
   .hero-tablet {
     display: flex;
     justify-content: space-between;
+    gap: 11px;
     margin-bottom: 40px;
   }
 
